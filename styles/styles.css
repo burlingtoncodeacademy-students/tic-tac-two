@@ -1,84 +1,20 @@
 /* Setting the page background color */
-body {
-  background-color: steelblue;
-}
+
 /* Styling the page 1 title header */
-h1 {
-  text-align: center;
-  margin-top: 2em;
-  color: tomato;
-}
+
 /* Setting up our flex container for our game board and control buttons */
-.flex {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+
 /* Setting up our grid container for the game board */
-.board {
-  display: grid;
-  grid-template-columns: 18vw 18vw 18vw;
-  grid-template-rows: 18vh 18vh 18vh;
-}
+
 /* Targeting the square class and adding a border to all of our squares */
-.square {
-  border: 2px solid black;
-}
+
 
 /* Removing specific parts of the border on each individual square to make it look like a tic-tac-toe board */
-#square0 {
-  border-left: none;
-  border-top: none;
-}
 
-#square1 {
-  border-top: none;
-}
-
-#square2 {
-  border-top: none;
-  border-right: none;
-}
-
-#square3 {
-  border-left: none;
-}
-
-#square5 {
-  border-right: none;
-}
-
-#square6 {
-  border-left: none;
-  border-bottom: none;
-}
-
-#square7 {
-  border-bottom: none;
-}
-
-#square8 {
-  border-bottom: none;
-  border-right: none;
-}
 
 /* Styling our individual control buttons */
-.butt {
-background-color: tomato;
-color: steelblue;
-border-radius: 25%;
-}
+
 /* Making our control button flex container */
-.buttons {
-display: flex;
-justify-content: space-around;
-width: 18vw;
-margin-top: 5rem;
-}
+
 
 /* Moving our next page button to the right */
-.next-page {
-    width: 10vw;
-    float: right;
-    margin-right: 15vw;
-}
